@@ -6,6 +6,7 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    margin:0px;
 }
  
 .container{
@@ -93,16 +94,19 @@ hr{
     background-color: var(--off-white);
 }
 
-.footer .footer-text{
-    text-align: center;
-    color: white;
-}
 
 .footer{
     background-color: var(--primary-color);
-    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
     color:white;
+    text-align: center;
+    padding: 1rem 1rem;
 }
 .footer .footer-link{
     color:white
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
 }
