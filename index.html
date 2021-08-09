@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
-    <link href="style.css" rel="stylesheet" /> 
+    <link href="style.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -24,13 +24,13 @@
     <h2>@containers</h2>
     <h3>fluid container</h3>
     <div class="container">This container should go to the end of the page </div>
-    <h3>center container</h3>  
+    <h3>center container</h3>
     <div class=" container container-center"> Centered container that should be centered with specific width</div>
     <hr>
 
     <h2>@links</h2>
-    <a class = " link link-primary" href="/"> Primary link</a>
-    <a class= "link link-secondary" href="/"> Secondary link</a>
+    <a class=" link link-primary" href="/"> Primary link</a>
+    <a class="link link-secondary" href="/"> Secondary link</a>
     <p> Note about line and block eelments</p>
     <hr>
 
@@ -60,42 +60,55 @@
 
     <h3>@nav</h3>
     <nav class="container navigation">
-        <div class= "nav-brand">My Brand</div>
-        <ul class = "list-nonbullet nav-elements">
+        <div class="nav-brand">My Brand</div>
+        <ul class="list-nonbullet nav-elements">
             <li class=" list-inline">
-            <a class="link" href="/"> About me</a>
+                <a class="link link-active" href="/"> About me</a>
             </li>
             <li class="list-inline">
-            <a class="link" href="/"> Products</a>
+                <a class="link" href="/"> Products</a>
             </li>
-            <li class="list-inline"> 
-            <a class="link" href="/"> Home</a>
-        </li>
-        </ul> 
+            <li class="list-inline">
+                <a class="link" href="/"> Home</a>
+            </li>
+        </ul>
     </nav>
     <hr>
 
     <h2>@header</h2>
-    <img src="images\hero.png" />
-    <h1>Text heading inside image</h1>
-    <hr>
+    <header class="hero">
+        <img class="hero-image" src="images\hero.png" />
+        <h1 class="hero-text">Journey of a <span class="hero-highlight">web developer</span></h1>
+        <hr>
+    </header>
+
 
     <h2>@section</h2>
-    <section>
-        <h3> space with white background</h3>
+    <section class="section">
+        <h1>white background</h1>
+        <div class="container container-center">
+            <p>This will have white backgroundasdsdsfsfsdfdfdfdfffffdsffafafdafaffafafdfafffddsdffdsffffffafffsfffffffdfdsaff</p>
+        </div>
     </section>
-    <section>
-        <h3> space with grey background</h3>
+    <section class="section  ow">
+        <h1> grey background</h1>
+        <div class="container container-center ">
+            <p>This will have grey background</p>
+        </div>
+
     </section>
     <hr>
 
     <h2>@footer</h2>
-    <footer>
-        <div>small heading inside footer</div>
-        <ul>
-            <li>socialone</li>
-            <li>socialtwo</li>
-            <li>socialthree</li>
+    <footer class="footer container container-center">
+        <div class="footer-text">small heading inside footer</div>
+        <ul class=" list-nonbullet">
+            <li class=" list-inline">
+                <a class="footer-link" href="/">socialone</a></li>
+            <li class="footer-list list-inline">
+                <a class="footer-link" href="/">socialone</a></li>
+            <li class="footer-list list-inline">
+                <a class="footer-link" href="/">socialone</a></li>
         </ul>
     </footer>
     <hr>
