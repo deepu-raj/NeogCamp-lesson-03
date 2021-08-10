@@ -84,7 +84,7 @@ hr{
     color:var(--primary-color);
 }
 .section{
-    padding:2rem;
+    padding:1.5rem;
 }
 .section h1 { 
      text-align: center;
@@ -109,4 +109,7 @@ hr{
 .footer ul {
     padding-inline-start: 0px;
 }
-}
+ .footer .footer-text{
+     font-weight:bold;
+     font-size:large;
+ }
